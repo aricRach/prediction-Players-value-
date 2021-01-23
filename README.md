@@ -26,6 +26,13 @@ In addition to all of these categories, we examined for each player his current 
 + [Learn more about  the data collection and categories](https://github.com/aricRach/path)
 
 
+# Describing the process
+
+First, we loaded all the data into a CSV file in order to work with it in our code. Later, we divided the data into two different sets: a set of all the categories besides the market value, and a set of all the players' market values. Furthermore, we did another division of the data – 80% of it was used to train the model, and the left 20% was used to train it. There are several training techniques for a machine learning model, and we examined a few of them. 
+
+At first, we tried to use multiple linear regression but we noticed that this technique yields lower accuracy percentage than the Random Forest technique. We got accuracy of 78% on the training set, i.e. in 78% percent of the cases the model predicted the right value market of the player. On the other hand, when we used Random Forest model, we got accuracy of 91% on the training set. We also tried to use logistic regression model, but it produced lower accuracy percentage than Random Forest (approximately 80%).
+
+
 # The development environment
 
 The code is written in python Jupyter development environment. To write the code, the following packages were imported:
