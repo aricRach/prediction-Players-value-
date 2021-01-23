@@ -23,7 +23,7 @@ In addition to all of these categories, we examined for each player his current 
 
 <img src="https://imgur.com/05qSnBg.png">
 
-+ [Learn more about  the data collection and categories](https://github.com/aricRach/path)
++ [Learn more about  the data collection and categories](https://github.com/aricRach/prediction-Players-value-/blob/master/data%20collection.pdf)
 
 
 # Describing the process
