@@ -17,10 +17,43 @@ The aim of the project was to create a machine learning model that would predict
 
 # Data Collection
 
-To this end, we collected data on 103 defensive players who played in the Premier League in the 2019-2020 season. For each player, we collected statistics of 24 categories that characterize the the defensive players, and form the basis for determining the market value of each player.
+To this end, we collected data of 103 defensive players who played in the Premier League in the 2019-2020 season. For each player, we collected statistics of 24 categories that characterize the the defensive players, and form the basis for determining the market value of each player.
 
 In addition to all of these categories, we examined for each player his current market value. This is the same variable that the model we built tries to estimate, based on the data we collected on the players
 
 <img src="https://imgur.com/05qSnBg.png">
 
 + [Learn more about  the data collection and categories](https://github.com/aricRach/path)
+
+
+# The development environment
+
+The code is written in python Jupyter development environment. To write the code, the following packages were imported:
+
+Pandas - A software library written for the Python programming language and designed for data analysis and processing. In particular, it offers data structures and operations for processing numeric data structures. We used this library to load the data from the CSV file and to divide it into two sets with which we can work as described above. Finally, all data tables are represented using functions from this directory.
+
+Sklearn.ensemble - RandomForestRegressor - Is a library that contains basic methods to improve the generality of the estimator in a machine learning algorithm. In our project we used the Regressor of the Random Forest algorithm and used it to build the learning model that yielded the highest accuracy percentages. Also, using the methods in the library, we made market value forecasts for 20% of the players with about 76% accuracy.
+
+sklearn.model_selection - train_test_split - Additional methods from the sklearn library that we used to divide all the data into the model training data (80% of the data) and the model examination data (20% of the data).
+
+<p >
+
+<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/Jupyter_logo.svg/1200px-Jupyter_logo.svg.png.png" width="250" height="180" align="left">
+<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/Scikit_learn_logo_small.svg/1200px-Scikit_learn_logo_small.svg.png" width="250" height="180" align="left">
+<img src="https://s3.amazonaws.com/lintel-blogs-static-files/wp-content/uploads/2019/07/14165137/pandas.jpg" width="250" height="180" align="center">
+
+</p>
+
+
+
+
+# User interface
+
+We used Tkinter to develop and design the Gui which the user insert the statistics data  of the player to it and will get the predicted value according to the data he inserted.
+
+<img src="https://imgur.com/9oBJlt3.jpg" align="left">
+<img src="https://imgur.com/i2mtCgB.jpg" align="center">
+
+
+
+
